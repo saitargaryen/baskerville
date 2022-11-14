@@ -1,0 +1,93 @@
+/*-- css reset--*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size : 100% ;
+    font-weight: normal;
+    line-height: 1em;
+
+}
+/*-- start main styling --*/
+
+body {
+    background: #f7f7f7;
+    color: #333333;
+    font-family: baskerville-urw, serif;
+}
+
+section , header , footer {
+
+    width: 80%;
+    max-width: 700px; 
+    margin: auto;
+    
+}
+header,section  {
+    
+
+
+}
+
+p,blockquote {
+    padding: .5 rem 0;
+
+}
+
+h1, h2{
+    color:darkturquoise;
+}
+
+h1 {
+    font-size: 5.653rem;
+    margin-top: 5rem;
+    padding-bottom: 0;
+}
+
+
+h2 {
+    font-size: 1.999rem ;
+    margin-bottom: 4rem ;
+    margin: 1rem 0 3rem 0;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 1.999rem;
+    color:blue ;
+    hanging-punctuation: first;
+    text-indent: -0.7rem;
+
+}
+blockquote cite {
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #333333;
+}
+/*-- styling links --*/
+
+/*--navigation-*/
+nav {
+
+    position: fixed;
+    top: 0;
+    left:0 ;
+    margin:0 ;
+    width:0 ;
+    background-color: cornflowerblue;
+    padding: 3rem0;
+    font-size: 0.75;
+
+}
+nav ul{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    
+}
+ nav ul li {
+    display: inline;
+    margin: 20px;
+    background: none;
+ }
